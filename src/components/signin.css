@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.signin-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fffbfb 0%, #fffcfc 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+}
+
+.signin-card:hover {
+  transform: translateY(-5px);
+}
+
+.signin-btn {
+  background: linear-gradient(90deg, #000000, #000000);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.signin-btn:hover {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  transform: scale(1.02);
+}
+
+form .form-control, 
+form .form-select {
+  padding: 10px 16px;
+  border: 1px solid #d6d6d6;
+  transition: all 0.3s;
+}
+
+form .form-control:focus, 
+form .form-select:focus {
+  border-color: #4facfe;
+  box-shadow: 0 0 0 0.2rem rgba(79, 172, 254, 0.25);
+}
